@@ -1,0 +1,25 @@
+cara memasukkan file kita kedalam GitHub:
+- buka terminal didalam vscodenya pastikan sudah masuk didalam PS D:\FILE\Mengulang Sanbercode batch 68\#6 Commant line dan Git\Mengulang-Laravel-Web-Dev>
+
+Lalu Jalankan:
+- PS D:\FILE\Mengulang Sanbercode batch 68\#6 Commant line dan Git\Mengulang-Laravel-Web-Dev> git add .
+- PS D:\FILE\Mengulang Sanbercode batch 68\#6 Commant line dan Git\Mengulang-Laravel-Web-Dev> git commit -m "buat file data-peserta"
+[main d2bacbe] buat file data-peserta
+ 1 file changed, 5 insertions(+)
+ create mode 100644 tugas-6/data-peserta.txt
+- PS D:\FILE\Mengulang Sanbercode batch 68\#6 Commant line dan Git\Mengulang-Laravel-Web-Dev> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+- PS D:\FILE\Mengulang Sanbercode batch 68\#6 Commant line dan Git\Mengulang-Laravel-Web-Dev> git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 481 bytes | 481.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/rizkydwianto/Mengulang-Laravel-Web-Dev.git
+   76bced2..d2bacbe  main -> main
+PS D:\FILE\Mengulang Sanbercode batch 68\#6 Commant line dan Git\Mengulang-Laravel-Web-Dev> 

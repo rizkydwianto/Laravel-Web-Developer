@@ -1,0 +1,5 @@
+cara menyimpan dan menjalankan PHP:
+simpan di local c - xampp - htdocs - [nama folder]
+
+cara menjalankan di url:
+localhost/namafolder/folderbaru/string.php

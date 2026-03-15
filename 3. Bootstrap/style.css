@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(135deg, #0c0f14, #121826, #1a2238);
+  color: #e4e6eb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Top Navbar */
+.nav {
+  background-color: #0f172a !important;
+}
+
+.nav-link {
+  color: #cbd5e1 !important;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: #38bdf8 !important;
+}
+
+/* Main Navbar */
+.navbar {
+  background-color: #0b1120 !important;
+  border-bottom: 1px solid #1f2937;
+}
+
+/* Search Box */
+.form-control {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  color: #fff;
+}
+
+.form-control:focus {
+  background-color: #1e293b;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 0.2rem rgba(56, 189, 248, 0.25);
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #38bdf8;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #0ea5e9;
+}
+
+/* Main Container */
+main .container {
+  background: #111827;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Card Headers */
+.card-header {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  border: none;
+  border-radius: 10px 10px 0 0;
+  font-weight: 600;
+}
+
+/* Best Seller Header */
+.bg-success {
+  background: linear-gradient(90deg, #10b981, #059669) !important;
+}
+
+/* List Group */
+.list-group-item {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #2563eb;
+  color: #fff;
+  transform: translateX(5px);
+}
+
+/* Carousel */
+.carousel-inner img {
+  border-radius: 15px;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Buttons */
+.btn-outline-light {
+  border-color: #38bdf8;
+  color: #38bdf8;
+}
+
+.btn-outline-light:hover {
+  background-color: #38bdf8;
+  color: #000;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #6366f1, #4f46e5);
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
