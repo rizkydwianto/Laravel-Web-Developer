@@ -1,4 +1,4 @@
-untuk migration buat satu migration utk 1 table
+ untuk migration buat satu migration utk 1 table
 
 urutan 1:
 migration untuk users
